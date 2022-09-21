@@ -1,26 +1,65 @@
-.grid-container {
-  display: grid;
-  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
-  gap: 15px;
+body{
   background-color: #fff2e6;
-  padding: 10px;
-  font-family: arial, helvetical, sans-seif
+  text-align: left;
+  border-style: ;
+  border-color: white;
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3IlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+list-style-position: inside;
+  color: white
 }
 
+
+h1{
+ font-size: 60px;
+  font-family: ariel, helvetica, sans-serif
+}
+
+h2{
+  font-family: ariel, helvetica, sans-serif
+}
+
+h3{
+  text-transform: ;
+  text-decoration-line: underline;
+ 
+}
+
+h4{
+   text-transform: uppercase;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: ;
+  align-content: center;
+  height: 100vh;
+ 
+ 
   
- .item1 {
-  grid-area: myArea;
+  
+ 
+ 
 }
 
-
-
-
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding:20px 0;
-  font-size: 30px;
+.grid-item1{
+  border:solid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ 
 }
 
+.grid-item3{
+  border: solid;
+  list-style-position: inside;
+  grid-column-start: 1;
+}
 
+.grid-item4{
+  border:solid;
+}
+.grid-item5{
+  border: solid;
+  grid-column-start:1;
+  grid-column-end: 3;
+}
