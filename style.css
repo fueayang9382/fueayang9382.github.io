@@ -1,14 +1,23 @@
-body{
-  background-color: #444;
-  color: #dddddd;
-  font-family: Ariel, Halvetica, sans-serif; 
-  margin: 10% 20%
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+  gap: 1px;
+  background-color: #fff2e6;
+  padding: 10px;
 }
 
-.exp-header {
+  
+ .item1 {
+  grid-area: myArea;
+}
+
+
+
+
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba(0,0,0,0.1)
+  padding:20px 0;
+  font-size: 30px;
 }
